@@ -1,0 +1,78 @@
+<div class="first-secn">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <Link class="navbar-brand" to="/">
+                <img src={logo} alt="WebhubZone" width="auto" height="60px"></img> 
+            </Link>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <Link class="nav-link active" aria-current="page" to="/">HOME</Link>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <Link class="nav-link active dropdown-toggle" to="/services" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            SERVICES
+                        </Link>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li>
+                                <Link class="dropdown-item" to="/services">Digital Marketing</Link>
+                            </li>
+                            <li>
+                                <Link class="dropdown-item" to="/services">UI/UX Design</Link>
+                            </li>
+                            <li>
+                                <Link class="dropdown-item" to="/services">Product Listing</Link>
+                            </li>
+                            <li>
+                                <Link class="dropdown-item" to="/services">Web Development</Link>
+                            </li>
+                            <li>
+                                <Link class="dropdown-item" to="/services">Mobile App Development</Link>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <Link class="nav-link active" aria-current="page" to="/about">ABOUT</Link>
+                    </li>
+                    <li class="nav-item">
+                        <Link class="nav-link active" aria-current="page" to="/blog">BLOG</Link>
+                    </li>
+                    <li class="nav-item active dropdown">
+                        <Link class="nav-link active dropdown-toggle" to="/pricing" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            PRICING
+                        </Link>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li>
+                                <Link class="dropdown-item" to="/pricing/productListing">Product Listing</Link>
+                            </li>
+                            <li>
+                                <Link class="dropdown-item" to="/pricing/WebDesign">Website Design Package</Link>
+                            </li>
+                            <li>
+                                <Link class="dropdown-item" to="/pricing/DigitalMarketing">Digital Marketing Package</Link>
+                            </li>
+                            <li>
+                                <Link class="dropdown-item" to="/pricing/ContentWriting">content Writing Package</Link>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <Link class="nav-link active" aria-current="page" to="/contact">CONTACT</Link>
+                    </li>
+                    {checkAdmin?<li class="nav-item">
+                        <Link class="nav-link active" aria-current="page" onClick={Logout} to="/logout">Logout</Link>
+                    </li>:''}
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+                    <button class="btn btn-primary" type="submit">Search</button>
+                </form>
+
+            </div>
+        </div>
+    </nav>
+    <Outlet />
+</div>

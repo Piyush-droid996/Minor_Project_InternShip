@@ -1,0 +1,225 @@
+/* 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #1F0039;
+    font-weight: 700;
+} */
+@media only screen and (max-width: 900px) {
+    .page-banner{
+        display: none;
+    }
+    
+}
+.page-banner {
+    height: 580px;
+    display: flex;
+    align-items: center;
+    position: static;
+    margin-top: 9vh;
+    margin-bottom: 25px;
+    background: url(../images/services_image.jpg);
+    background-position: center;
+    background-size: cover;
+    z-index: 1;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.banner-content h2 {
+    font-size: 55px;
+    color: white;
+    margin-bottom: 0;
+    margin-left: 62%;
+}
+
+/*================================2nd section=========================*/
+
+.pb-115,  .py-115 {
+    padding-bottom: 115px;
+}
+
+.pt-120, .py-120 {
+    padding-top: 14px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.service-sidebar {
+    max-width: 300px;
+}
+
+.service-widget {
+    padding: 40px 30px 45px;
+    background: #e0e8f3;
+}
+
+.service-widget>ul {
+    padding: 0;
+}
+
+.sidebar-widget {
+    margin-bottom: 60px;
+}
+
+.service-widget h4 {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+h4 {
+    font-size: 25px;
+}
+
+.sidebar-widget>ul{
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+.service-widget ul li {
+    margin-bottom: 17px;
+}
+
+.service-widget ul li a {
+    display: block;
+    font-size: 16px;
+    color: #4C4254;
+    padding: 14px 25px;
+    background: #FFFFFF;
+    transition: all .3s;
+    text-decoration: none;
+}
+
+.service-widget a:hover {
+    background-color: #0060aa;
+    color: #FFFFFF;
+}
+
+.sidebar-widget:last-child {
+    margin-bottom: 0;
+}
+
+.service-details-content {
+    margin-left: -30px;
+}
+
+.service-details-content h2 {
+    margin-bottom: 28px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.service-details-content p {
+    margin-bottom: 28px;
+}
+
+.work-part-content {
+    margin: 0 0;
+}
+
+.work-left {
+    position: relative;
+    max-width: 340px;
+    padding-bottom: 0px;
+}
+.work-content {
+    margin-left: 0;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+/* ====================== faq css ======================= */
+.faq {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e0e8f3;
+    padding-bottom: 10%;
+}
+
+.faq-container {
+    width: 80%;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+.faq-container h3 {
+    margin-bottom: 5% !important;
+    margin-top: 5%;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+}
+.accordion-item {
+    background-color: white;
+    border-radius: .4rem;
+    margin-bottom: .5rem;
+    padding: 1rem;
+    box-shadow: .5rem 2px .5rem rgb(0, 0, 0, .1);
+}
+
+.accordion-link {
+    font-size: 1.0rem;
+    color: black;
+    text-decoration: none;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0rem 0 0rem 1rem;
+}
+
+.accordion-link i {
+    color: black;
+    padding: 0.5rem;
+}
+
+.accordion-link .fa-minus {
+    display: none;
+}
+
+.answer {
+    max-height: 0;
+    overflow: hidden;
+    background-color: white;
+    transition: max-height 650ms;
+}
+
+.answer p {
+    color: #3e3f3f;
+    font-size: 0.9rem;
+    padding: 0.5rem 0rem 0rem 1rem;
+}
+
+.accordion-item:target .answer {
+    max-height: 20rem;
+    overflow: hidden;
+    background-color: white;
+}
+.accordion-link:target .answer{
+    max-height: 0;
+}
+.accordion-item:target .accordion-link .fa-plus {
+    display: none;
+}
+
+.accordion-item:target .accordion-link .fa-minus {
+    display: block;
+}

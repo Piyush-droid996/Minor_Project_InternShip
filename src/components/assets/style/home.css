@@ -1,0 +1,489 @@
+
+/* =====main index section=========== */
+
+.hcl2-content {
+    color: aliceblue;
+    float: right;
+    width: 100%;
+    height: 100%;
+    padding-left: 5vw;
+    padding-top: 5vw;
+}   
+button 
+  
+
+
+.TopSubHeading {
+    font-family: sans-serif;
+    font-size: 15pt;
+}
+
+.MainHeading {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5rem;
+    font-weight: 600;
+}
+
+.MainSubHeading {
+    font-family: sans-serif;
+    font-size: 16pt;
+    font-weight: bold;
+}
+
+.TopSubHeading,
+.MainHeading,
+.MainSubHeading,
+.MainHeadingBtn {
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.btn-hero{
+    background-color: #0060aa;
+    border: none;
+    color: white;
+    padding: 2%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 0 10% 0 0;
+    cursor: pointer;
+    font-weight: 700;
+}
+.hero__content {
+    text-shadow: 0 2px 8px rgb(0 0 0 / 15%);
+    font-size: 1.125rem;
+    font-weight: 300;
+}
+
+.containerHeading {
+    background-color: rgb(0, 0, 0);
+    min-width: 100vw;
+    padding-top: 0%;
+}
+
+.parallax-hero {
+    margin: 0;
+    padding-top: 9vh;
+}
+
+/*============= main headin css end ==================*/
+
+/* ============Slide Show Start================ */
+.slider-show {
+    overflow: hidden;
+    height: 80vh;
+}
+.slider-show .figure{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation:  slider 20s infinite;
+}
+.figure img{
+    width: 20%;
+    float: left;
+}
+@keyframes slider{
+    0%{
+        left:0;
+    }
+    20%{
+        left:0;
+    }
+    25%{
+        left: -100%;
+    }
+    45%{
+        left: -100%;
+    }
+    50%{
+        left: -200%;
+    }
+    70%{
+        left: -200%;
+    }
+    75%{left: -300%;
+    }
+    85%{
+        left: -300%;
+    }
+    100%{
+        left:-400%;
+    }
+}
+
+/* ============Slide Show End================= */
+
+/* =======features start================= */
+#feature-section-web,
+#service-section-web {
+    background-color: #f8f9f9;
+    z-index: -3;
+}
+
+.home-feature-container {
+    margin-top: 0;
+    padding-top: 2vh;
+}
+
+.home-feature-heading {
+    margin: 5vh;
+    text-align: center;
+}
+
+.home-feature-heading>h6 {
+    color: grey;
+}
+
+.home-feature-heading h2 {
+    font-weight: 800;
+}
+
+.home-feature-elements {
+    padding: 6vw;
+}
+
+.home-feature-elements a{
+    text-decoration: none;
+    color: black;
+}
+
+.row-elements {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.features-item {
+    margin: 2vw;
+    width: 38vw;
+    height: auto;
+    display: inline-block;
+    text-align: center;
+    padding: 0 4% 0 4%;
+    flex-direction: column;
+    box-sizing: border-box;
+    box-shadow: 0 5px 10px rgb(0 0 0 / 10%);
+    border-radius: 20px;
+
+}
+
+.features-icon {
+    text-align: center;
+}
+
+.fa-stack {
+    z-index: 0;
+}
+
+.features-heading {
+    text-align: center;
+    line-height: 1.2;
+    font-weight: 500;
+}
+
+.features-content {
+    text-align: center;
+}
+
+.fa-4x {
+    align-content: center;
+}
+
+/* ============about us section============== */
+
+.section-desc {
+    padding-top: 5%;
+}
+
+.section-desc>h2 {
+    margin-bottom: 3%;
+    font-weight: 700;
+}
+
+.section-desc>h6 {
+    color: grey;
+}
+
+.aboutus-webm-contant {
+    display: inline-flex;
+}
+
+.about-us-webm {
+    position: relative;
+    z-index: -2;
+    width: 150%;
+}
+
+.about-us-webm>video {
+    width: 100%;
+    padding-right: 5%;
+}
+
+/* ========service page ======= */
+.row-elements>a {
+    text-decoration: none;
+    color: black;
+}
+
+.service-item {
+    background-color: white;
+    margin: 2vw;
+    width: 38vw;
+    height: auto;
+    padding: 1vh;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    box-shadow: 0 8px 12px rgb(0 0 0 / 13%);
+    border-radius: 20px;
+    justify-content: space-evenly;
+}
+
+.service-item:hover {
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.20), 0 17px 50px 0 rgba(0, 0, 0, 0.15);
+}
+
+.service-item>a {
+    text-decoration: none;
+    color: black;
+}
+
+.service-heading {
+    text-align: center;
+    padding: 4% 0 4% 0;
+}
+
+/*================our founder and team member section============================== */
+
+.team {
+    background-color: #e7e9ea;
+    text-align: center;
+    padding: 25px 0px;
+}
+
+.team h2 {
+    font-size: 40px;
+    padding: 50px 0px;
+}
+
+.team__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    padding-left: 1%;
+}
+
+.team__container .h4_style {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.team__member {
+    background: white;
+    padding: 2rem;
+    position: relative;
+    overflow: hidden;
+    border-radius: 1rem;
+}
+
+.fa-instagram {
+    color: red;
+}
+
+.team__member:hover {
+    background: transparent;
+}
+
+.team__member-image img {
+    filter: saturate(1);
+    border-radius: 1rem;
+}
+
+img {
+    width: 71%;
+}
+
+.team__member:hover img {
+    filter: saturate(1);
+}
+
+.team__member-info .h4_style {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.team__member-info * {
+    text-align: center;
+    margin-top: 1.4rem;
+}
+
+.team__member-info p {
+    color: var(--color-light);
+}
+
+.team__member-socials {
+    background: aliceblue;
+    position: absolute;
+    transform: translateY(-50%);
+    top: 36%;
+    right: -100%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem 0 0 1rem;
+    box-shadow: -2rem 0 2rem rgba(0, 0, 0, 0.3);
+    transition: var(--transition);
+}
+
+.team__member:hover .team__member-socials {
+    right: 0;
+}
+
+.team__member-socials a {
+    padding: 1rem;
+}
+
+@media screen and (max-width: 1024px) {
+    .team__container {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.5rem;
+    }
+
+    .team__member {
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .team__container {
+        grid-template-columns: 1fr 1fr;
+        gap: 0.7rem;
+    }
+
+    .team__member {
+        padding: 0;
+    }
+
+    .team__member p {
+        margin-bottom: 1.7rem;
+    }
+}
+
+.team__container1 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}
+
+.team__container1 .h4_style {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ==================get in touch=============================== */
+.video-get-in-touch {
+    display: inline-flex;
+}
+
+.get-webm {
+    position: relative;
+    z-index: -2;
+    width: 100%;
+}
+
+.get-webm>video {
+    width: 60%;
+    margin: 0 0 0 10%
+}
+
+.ready-to-boom {
+    padding: 16% 0 9% 0;
+    ;
+    text-align: left;
+}
+
+.get-in-touch-button {
+    background-color: #0060aa;
+    border: none;
+    color: white;
+    padding: 2%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 0 10% 0 0;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.get-in-touch-button:hover {
+    color: black;
+    background-color: #fff;
+    border: 2px solid black;
+}
+/* ==============footer section========== */
+
+/* =================media query==================== */
+
+@media only screen and (max-width: 900px) {
+    /* *{
+        overflow-x: hidden;
+    } */
+    .MainHeading {
+        font-size: 2rem;  
+    }
+    .MainSubHeading {
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    .features-item {
+        width: 88vh;
+        margin-bottom: 32px;
+    }
+
+    .aboutus-webm-contant {
+        display: block;
+        text-align: justify;
+    }
+
+    .section-desc p {
+        text-align: justify;
+    }
+
+    .about-us-webm>video {
+        width: 76%;
+    }
+
+    .service-item {
+        width: 83vw;
+        margin-bottom: 20px;
+    }
+
+    .team__member {
+        width: 160px;
+    }
+
+    .team__container {
+        grid-template-columns: 1fr 1fr;
+        gap: 1.7rem;
+    }
+    .team__container1 {
+        grid-template-columns: 1fr 1fr;
+        gap: 1.7rem;
+    }
+
+    .team__member {
+        padding: 0;
+    }
+
+    .team__member .h4_style {
+        margin-bottom: 1.7rem;
+    }
+    .video-get-in-touch{
+        display: flex;
+        flex-direction: column;   
+    }
+    .get-webm>video {
+        width: 100%;
+        margin: 0;
+    }
+}

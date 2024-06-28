@@ -1,0 +1,242 @@
+#newblog {
+    padding-top: 5px;
+}
+#newblog {
+    flex-direction: column;
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+}
+.bg_gradient_home_v2 {
+    display: flex;
+    flex-direction: column;
+}
+.bg_gradient_home_v2, .bg_gradient_home_v2>* {
+    position: relative;
+    z-index: 1;
+}
+#newblog .container-blog, .head_category_v2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:2rem;
+}
+.bg_gradient_home_v2 .vce-main-content {
+    flex-direction: column;
+}
+.site-content, .vce-sid-none .vce-main-content {
+    padding: 15px 0 0;
+}
+#newblog .topSection {
+    padding: 30px 0 0;
+    width: 100%;
+}
+#newblog .container-blog, .head_category_v2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container-blog {
+    margin: 0 auto;
+    max-width: 1140px;
+}
+#newblog .topSection .top_text_title, .head_category_v2 .title_text_cat_v2 {
+    width: 490px;
+    margin: 0;
+    position: relative;
+    min-height: 150px;
+}
+#newblog .topSection .subtitle, #newblog .topSection .subtitle span {
+    width: 470px;
+    padding-top: 0;
+    letter-spacing: 1px;
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 0;
+    text-align: left;
+    font-weight: 600;
+}
+
+
+#newblog .topSection .subtitle, #newblog .topSection .subtitle span {
+    width: 470px;
+    padding-top: 0;
+    letter-spacing: 1px;
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 0;
+    text-align: left;
+    font-weight: 600;
+}
+/*============================header image============================*/
+#newblog .topSection .top_image {
+    width: calc(100% - 660px);
+}
+.wp-caption, embed, iframe, img, object, pre {
+    max-width: 100%;
+}
+
+
+.top_image>img {
+    vertical-align: middle;
+    height: auto;
+    margin-left: 100%;
+}
+
+/*====================================header title=====================================================================*/
+#newblog #main-box-1 .main-box-inside .vce-loop-wrap article,
+#newblog #main-box-2 .main-box-inside .vce-loop-wrap article {
+    position: relative;
+    margin: 0;
+}
+
+#newblog .posts_after_banners article {
+    box-shadow: 10px 10px 0 5px #f0e4ff;
+    margin-bottom: 50px !important;
+}
+
+.main-box-inside article {
+    background: #fff;
+    border: 1px solid #0f0f0f;
+    box-sizing: border-box;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 15px 15px 40px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+.vce-lay-c .meta-image {
+    float: left;
+    margin-bottom: 12px;
+    width: 100%;
+}
+
+.meta-image {
+    max-width: 1000px;
+    margin: 0 auto;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.meta-image {
+    position: relative;
+    overflow: hidden;
+    z-index: 10;
+}
+
+.vce-lay-b img,
+.vce-lay-c,
+.vce-lay-c img {
+    width: 375px;
+    float: left;
+}
+
+.img-wrp img,
+.vce-lay-b img,
+.vce-lay-c img {
+    max-height: 195px;
+}
+
+
+
+.wp-caption,
+embed,
+iframe,
+img,
+object,
+pre {
+    max-width: 100%;
+}
+
+
+
+#newblog #main-box-1 .entry-header {
+    min-height: 60px;
+}
+
+.vce-lay-c .entry-header {
+    margin-bottom: 10px;
+    float: left;
+    width: 100%;
+}
+
+#newblog #main-box-1 article .entry-title,
+#newblog #main-box-2 article .entry-title {
+    line-height: 24px !important;
+}
+
+#newblog .vce-lay-c .entry-content,
+#newblog .vce-lay-c .entry-title,
+#newblog .vce-sid-none .vce-lay-c .entry-title {
+    padding: 0 10px;
+}
+
+.vce-lay-c .entry-title,
+.vce-sid-none .vce-lay-c .entry-title {
+    line-height: 28px;
+    font-size: 22px;
+}
+
+.vce-lay-c .entry-title {
+    text-align: center;
+    padding: 0 20px;
+    margin-bottom: 4px;
+}
+
+#newblog #main-box-1 article .entry-title a,
+#newblog #main-box-2 article .entry-title a,
+.main-box-inside article .entry-title a {
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    transition: unset;
+    text-decoration: none;
+}
+
+
+
+.vce-lay-c .entry-content {
+    text-align: center;
+    padding: 0 30px;
+    font-size: 14px;
+    line-height: 22px;
+}
+/*============================new css blogs===========================*/
+.home_resources {
+    padding: 40px 0 50px;
+    margin: 50px 0 0;
+    clear: both;
+    background-color: transparent;
+    position: relative;
+}
+.home_resources .main-box-title {
+    padding: 0 0 30px;
+    text-transform: uppercase;
+    color: #a3a9b0;
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    text-align: center;
+    background: 0 0;
+    box-shadow: none;
+}
+#newblog #main-box-1 .main-box-inside, #newblog #main-box-2 .main-box-inside {
+    padding: 0;
+}
+.main-box-inside {
+    width: 100%;
+    float: left;
+}
+.search-header-form-ul li, .vce-loop-wrap {
+    float: left;
+    width: 100%;
+}
+#newblog .nlatest_post, #newblog .under_latest, #newblog .posts_after_banners {
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    gap: 2rem;
+}

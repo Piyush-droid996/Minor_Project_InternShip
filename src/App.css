@@ -1,0 +1,84 @@
+/* 
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+/* New CSS */
+
+/* Header NavBar Start */
+
+
+/* Header NavBar End */
+.App{
+  overflow-x: hidden;
+  width: 100vw;
+}
+
+/* Login CSS */
+
+.login {
+  margin:20%;
+  margin-top: 4%;
+  margin-bottom: 5%;
+  align-self: center;
+}
+
+.inputBox {
+  position: relative;
+  padding: 2%;
+  display: block;
+  border: 1px solid skyblue;
+  width: 40%;
+  margin: 20%;
+  margin-top: 4%;
+  margin-bottom: 4%;
+  align-self: center;
+}
+
+.loginButton {
+  margin: 20%;
+  margin-top: 0;
+  margin-bottom: 5%;
+  width: 20%;
+  padding: 1%;
+  background-color: skyblue;
+  border: solid 1px;
+  cursor: pointer;
+  position: inherit;
+  text-align: center;
+  align-self: center;
+}
+
+/*End Login Component*/
+
+
+
+
+
+

@@ -1,0 +1,110 @@
+.service-desc>video {
+    width: 100%;
+}   
+
+#services-shortcut {
+    margin-top: 10vh;
+    padding: 0;
+    width: 100vw;
+    background-color: white;
+    background-position: center center;
+    background-repeat: no-repeat;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.wrapper {
+    display: inline-block;
+    margin: 5% auto;
+}
+
+.wrapper h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    font-size: 2 rem;
+    color: black;
+}
+
+.single-service {
+    position: relative;
+    width: 31%;
+    background-color: #fff;
+    padding: 0 1%;
+    transition: 0.2s;
+    overflow: hidden;
+    float: left;
+    margin: 1%;
+    text-align: center;
+    box-sizing: border-box;
+    box-shadow: 0 5px 10px rgb(0 0 0 / 10%);
+}
+
+.button-service {
+    background-color: #0060aa;
+    border: none;
+    color: white;
+    padding: 2%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 0 0 5% 0;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.single-service p {
+    color: #262626;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.single-service h3 {
+    font-size: 21px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.social {
+    width: 100%;
+    height: 50%;
+    border-radius: 50%;
+    margin: 5% auto;
+}
+
+.social>img {
+    width: 50%;
+    height: auto;
+}
+
+.single-service span {
+    position: absolute;
+    top: 0;
+    left: -110%;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    transition: 0.7s;
+    transform: skewX(10deg);
+}
+
+.single-service:hover span {
+    left: 110%;
+}
+
+@media (max-width: 500px) {
+    .wrapper {
+        width: 100%;
+    }
+    .single-service {
+        width: 95%;
+    }
+    .single-service1 {
+        width: 95%;
+    }
+}
+
+
+/* SERVICE CSS END */
+
+

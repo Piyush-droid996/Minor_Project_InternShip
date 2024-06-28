@@ -1,0 +1,123 @@
+/* navbar css end */
+.contact-container {
+    margin-top: 9vh;
+    display: inline-flex;
+    grid-template-columns: 40% 60%;
+    gap: 5rem;
+}
+
+.contact-webm {
+    position: relative;
+    z-index: -2;
+    width: 100%;
+}
+
+.contact-webm>video {
+    width: 100%;
+    padding: 5% 0% 0% 20%;
+}
+.fa-stack{
+    padding: 1% 4%;
+}
+.contact-address-box {
+    padding: 2% 1% 1% 1%;
+    box-sizing: border-box;
+    box-shadow: 0 5px 10px rgb(0 0 0 / 10%);
+    border-radius: 20px;
+    margin:11% 10% 9% 1%;
+
+}
+.contact-address-box>h3{
+    text-decoration: underline;
+    margin: 4%;
+}
+.address-contactus{
+    display: inline-flex;
+    margin: 2% 6% 0 0;
+}
+.address-contents>a{
+text-decoration: none;
+color: black;
+padding: 5%;
+
+}
+.formGroup {
+  
+    width: 50%;
+}
+.SubformGroup {
+   
+    width: 100%;
+    padding-left: 29%;
+}
+
+.ContactDetails {
+   width: 50%;
+}
+
+.margin_1_em {
+    margin-bottom: 0.5em;
+}
+
+.gray_bg:hover {
+    background-color: rgba(128, 128, 128, 0.145);
+}
+/* new css in form */
+.choose-services {
+margin: 1%;
+}
+.answer-form>ul{
+    list-style: none;
+    padding-left: 1rem;
+}
+.answer>ul>li{
+    list-style-type: none;
+}
+.answer>ul{
+    padding: 1%;
+}
+/* end */
+.contact-button {
+    background-color: #0060aa;
+    color: white;
+}
+
+.contact-button:hover {
+    background-color: black;
+}
+.geomap {
+width:500px;
+height: 365px;
+margin:0;
+}
+
+/* ==================media query=================== */
+
+@media screen and (max-width: 1000px) {
+    .contact-container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-address-box {
+        margin: 0% 5% 10% 5%;
+        padding: 5% 10% 0% 10%;
+    }
+    .contact-webm>video {
+        padding: 5% 10% 0% 10%;
+    }
+    .formGroup {
+        width: 100%;
+    }
+    .SubformGroup {
+        width: 100%;
+        padding: 5% 10% 0% 10%;
+    }
+    .geomap {
+        height: 365px;
+        margin-left: 9%;
+        width: 85%;
+        margin-bottom: 5%;
+        padding:0;
+    }
+}

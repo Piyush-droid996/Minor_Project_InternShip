@@ -1,0 +1,219 @@
+:root {
+    --color-primary: #6c63ff;
+    --color-success: #00bf8e;
+    --color-warning: #f7c94b;
+    --color-danger: #f75842;
+
+    --color-bg1: #4971b4;
+    --color-bg2: #2f4873;
+    --transition: all 400ms ease;
+}
+
+/*===========================about us card start=========================*/
+.team-area {
+    padding: 50px 0;
+
+}
+
+.card-team-start {
+    position: inherit;
+    margin-left: 3%;
+    padding: 4%;
+}
+
+.ncard {
+    position: initial;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.head_name {
+    text-align: center;
+    padding: 50px 0px;
+}
+
+.Team_work img {
+    height: 150px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    width: 100%;
+}
+
+.main-text {
+    padding: 10px 0;
+    text-align: center;
+}
+
+.main-text h2 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 20px;
+    margin: 0 0 20px;
+}
+
+.main-text p {
+    font-size: 14px;
+    padding: 0 10px;
+}
+
+/*==================card end==============*/
+.about-blocks__image-text {
+    margin: 5vh 5vh 5vh 5vh;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.about-blocks__image-wrapper {
+    margin-left: 0;
+    /* margin-right: 6%; */
+    padding: 0;
+    flex: 1 5 40%;
+    max-width: 30rem;
+    min-width: 25rem;
+}
+
+.about-blocks__text-wrapper {
+    margin-top: 5%;
+    margin-left: 0;
+    -webkit-box-flex: 1;
+    flex: 1 1 45%;
+    display: flex;
+    flex-direction: column;
+    max-width: 30rem;
+    min-width: 25rem;
+}
+
+.about-blocks__image {
+    margin-left: 145px;
+    width: 100%;
+}
+/* 
+.about-blocks__image2 {
+    margin-right: 40%;
+    width: auto;
+} */
+
+.about-blocks__image-text--right .about-blocks__text-wrapper {
+    margin-bottom: 0;
+}
+
+/*==================about us section================*/
+.achievements {
+    margin-top: 10vh;
+}
+
+.achievements__left video{
+    width: 100%;
+}
+
+.achievements__container {
+    display: grid;
+
+    grid-template-columns: 40% 60%;
+}
+
+.about-blocks__container {
+    display: grid;
+    margin-top: 2%;
+}
+
+.achievements__right>p {
+    margin: 1.6rem 0 2.5rem;
+}
+
+.achievements__cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+.achievement__card {
+    background: var(--color-bg1);
+    padding: 0.6rem;
+    border-radius: 2rem;
+    text-align: center;
+    margin: 0px 20px 0px 0px;
+}
+
+.achievement__card:hover {
+    background: var(--color-bg2);
+    box-shadow: 0 3rem 3rem rgba(0, 0, 0, 0.3);
+}
+
+.achievement__icon {
+    background: var(--color-danger);
+    padding: 0.6rem;
+    border-radius: 1rem;
+    display: inline-block;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.achievement__card:nth-child(2) .achievement__icon {
+    background: var(--color-success);
+}
+
+.achievement__card:nth-child(3) .achievement__icon {
+    background: var(--color-primary);
+}
+
+.achievement__card p {
+    margin-top: 1rem;
+}
+
+/* =======================MEDIA QUERY ()========================= */
+
+
+@media screen and (max-width: 1000px) {
+    .achievements__container {
+        grid-template-columns: 1fr;
+    }
+
+    .achievements__right h1 {
+        text-align: center;
+    }
+
+    .about-blocks__container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-blocks__image-text {
+        margin-top: 5%;
+        justify-content: center;
+        display: inline-flex;
+        flex-wrap: wrap;
+        margin-left: -18%;
+    }
+
+    .about-blocks__image-wrapper {
+        margin-left: 23rem;
+    }
+
+    .about-blocks__paragraph {
+        margin-left: 25%;
+    }
+
+    .about-blocks__text-wrapper h2 {
+        margin-left: 25%;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    .about-blocks__image-wrapper {
+        margin-left: 18rem;
+    }
+
+    .about-blocks__image-text {
+        margin-left: -30%;
+    }
+}

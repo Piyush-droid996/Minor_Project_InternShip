@@ -1,0 +1,75 @@
+
+.footer-section-start{
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+/* ==============footer section========== */
+.footer-section {
+    background-color: #03151d;
+    padding: 20px 0 15px;
+    color: #fff;
+}
+
+
+.footer-section .left {
+    text-align: left;
+}
+
+.footer-section .heading {
+    font-weight: 800;
+    display: inline-grid;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: relative;
+    padding: 0px 0px 13px 0px;
+    text-align: center;
+    color: #343a40;
+}
+
+.footer-section .heading.left::before {
+    right: auto;
+}
+
+.footer-section .heading::before {
+    content: "";
+    position: absolute;
+    height: 4px;
+    width: 100px;
+    background: #0060aa;
+    border-radius: 4px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+
+.footer-section .heading span {
+    font-weight: 900;
+    font-size: 20px;
+    letter-spacing: normal;
+    text-transform: capitalize;
+    padding-top: 4px;
+    text-align: initial;
+}
+
+.footer-section .list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+
+.footer-section ul.footer-links li a {
+    font-size: 14px;
+    color: #fff;
+    position: relative;
+    padding-left: 15px;
+    transition: .2s;
+    text-decoration: none;
+}
+
+.last-footer {
+    border-top: 1px solid grey;
+    padding: 15px;
+}
